@@ -5,10 +5,10 @@ import Router from './components/Router';
 const App = () => {
   return (
     <>
-    <BTNavbar />
-    <Container>
-      <Router path={window.location.pathname}></Router>
-    </Container>
+      <BTNavbar />
+      <Container>
+        <Router path={window.location.pathname}></Router>
+      </Container>
     </>
   );
 }

@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import Home from "./Home"
+import CryptoInfo from "./CryptoInfo"
 
-const routes = { "/": <Home /> };
+const routes = { "/": <Home />, "/cryptoInfo": <CryptoInfo /> };
 
 const Router = ({ path }) => {
     const route = path in routes ? routes[path] : <Home />;
